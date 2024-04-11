@@ -8,9 +8,9 @@ const FAQ = () => {
     Aos.init();
 }, []);
   return (
-    <div className='FAQ'>
+    <div className='FAQ px-16'>
         <h2>Frequently Asked Questions</h2>
-        <p>FasJet is the internet's trusted source for labels. See why thousands of customers rely on us to help them achieve success.</p>
+        <p>JetX is the internet's trusted source for labels. See why thousands of customers rely on us to help them achieve success.</p>
         <Accordian/>
     </div>
   )

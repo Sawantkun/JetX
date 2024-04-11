@@ -13,16 +13,7 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
-.footerbc:after{
-    content:'' ;
-    position: absolute;
-    background-color: rgba(255, 0, 0, 0.416);
-    height: 52vh;
-    width: 100%;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-}
+
 
 
 /* hero section */
@@ -113,7 +104,6 @@ body::-webkit-scrollbar{
 
     /* growth */
 .growth{
-    padding: 100px 0 80px 0 ;
     display: flex;
     position: relative;
     align-items: center;
@@ -181,7 +171,7 @@ body::-webkit-scrollbar{
 
 /* faq */
 .FAQ{
-    padding: 0px 0 600px 0 ;
+    padding: 0px 50px 300px 50px ;
     position: relative;
     display: flex;
     position: relative;
@@ -221,13 +211,13 @@ body::-webkit-scrollbar{
 }
 .modal{
     padding: 115px 0;
-    }
-    .modal::-webkit-scrollbar{
-        display: none;
-    }
+}
+.modal::-webkit-scrollbar{
+    display: none;
+}
 .dashboard{
     padding: 100px 0 500px 0;
-    }
+}
 .dashboardtab{
     padding-top: 50px;
 }
@@ -244,4 +234,15 @@ body::-webkit-scrollbar{
 }
 .google{
     background-color: red;
+}
+@media only screen and (max-width: 600px) {
+    .FAQ{
+        padding: 0px 50px 800px 50px ;
+    }
+    .product{
+        padding: 0px 0 800px 0;
+    }
+    .cart{
+        padding:100px 0 1000px 0px;
+    }
 }
