@@ -115,7 +115,7 @@ export default function Navbar() {
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
                 <Link to={'/'} className='flex'>
-                  <img className='h-20' src={Logo} alt="" />
+                  <h2 className='font-bold text-2xl text-primary'>JetX</h2>
                 </Link>
               </div>
 
